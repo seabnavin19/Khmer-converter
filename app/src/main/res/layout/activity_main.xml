@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/black"
+    android:weightSum="9"
+    android:orientation="vertical">
+
+    <TextView
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="រង្វស់រង្វាល់ខ្មែរ"
+        android:paddingTop="10dp"
+        android:fontFamily="cursive"
+        android:textStyle="italic"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="50dp"
+        android:gravity="center" />
+
+    <GridLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:columnCount="2"
+        android:layout_weight="6"
+        android:background="@android:color/transparent"
+        android:rowCount="2">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/lengt"
+            app:cardBackgroundColor="@android:color/primary_text_dark"
+            android:background="@android:color/holo_blue_light"
+            android:elevation="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:background="@android:color/holo_orange_light"
+                    android:textColor="@android:color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ប្រវែង"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/weigh"
+            android:elevation="20dp"
+            app:cardBackgroundColor="@android:color/primary_text_dark"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:textStyle="bold"
+                    android:background="@android:color/holo_green_light"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ទម្ងន់"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:elevation="20dp"
+            app:cardBackgroundColor="@android:color/primary_text_dark"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:textStyle="bold"
+                    android:background="@android:color/holo_purple"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="រង្វាស់ចំណុះ"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:elevation="20dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:textStyle="bold"
+                    android:background="@android:color/holo_blue_light"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="រង្វាស់ចំនួន"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </GridLayout>
+
+
+
+
+</LinearLayout>

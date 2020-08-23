@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Khmer converter</string>
+    <string-array name="length">
+        <item>តឹក</item>
+        <item>ផឹង</item>
+        <item>យោជន៏</item>
+        <item>គាវុត</item>
+        <item>ព្យាម</item>
+        <item>សិន</item>
+        <item>គីឡូម៉ែត្រ</item>
+        <item>ម៉ែត្រ(m)</item>
+        <item>សង់ទីម៉ែត្រ(cm)</item>
+        <item>ដេសីុម៉ែត្រ(dm)</item>
+        <item>មីលីម៉ែត្រ(mm)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weight">weight</string>
+    <string-array name="weightel">
+        <item>ហ៊ុន</item>
+        <item>លី</item>
+        <item>លី</item>
+    </string-array>
+</resources>
